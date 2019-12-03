@@ -1,0 +1,84 @@
+.difficultForm {
+    display: flex;
+    justify-content: space-around;
+
+    font-size: 18px;
+}
+
+.difficultForm label {
+    border-right: 1px solid gray;
+    margin: 0 5px;
+}
+
+.chooseBtn {
+    background-color: #1a7749;
+    border: 2px solid #0b2e2f;
+    border-radius: 5px;
+    color: antiquewhite;
+
+    font-size: 20px;
+    text-align: center;
+}
+
+.board {
+    width: 290px;
+    margin: 50px auto;
+    margin-bottom: 0;
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-gap: 2px;
+    padding: 2px;
+
+    background-color: #85ba6a;
+    border: 3px solid #01121c;
+
+    transition-property: all;
+    transition-duration: 1s;
+}
+
+.chip {
+
+    background-color: #1a7749;
+    border: 2px solid #0b2e2f;
+    border-radius: 5px;
+    color: antiquewhite;
+
+    text-align: center;
+    vertical-align: middle;
+    font-size: 55px;
+}
+
+div.empty {
+    background-color: #85ba6a;
+    border: 0 solid #0b2e2f;
+}
+
+.winMessage {
+    width: 500px;
+    margin: 15px auto;
+    padding: 10px;
+
+    background-color: darkgoldenrod;
+    border: 3px solid orange;
+    border-radius: 5px;
+    color: antiquewhite;
+
+    font-size: 20px;
+    text-align: center;
+}
+
+.restart-btn {
+    display: block;
+    width: 100px;
+    margin: 20px auto;
+
+    background-color: #1a7749;
+    border: 2px solid #0b2e2f;
+    border-radius: 5px;
+    color: antiquewhite;
+
+    font-size: 20px;
+    text-align: center;
+}
